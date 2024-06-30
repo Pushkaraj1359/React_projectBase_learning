@@ -1,6 +1,7 @@
 import { useState } from "react"
 
 function App() {
+  // used useState hook to change UI monupulations
   const [color, setColor] = useState("white")
 
   return (
