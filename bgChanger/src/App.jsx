@@ -37,4 +37,6 @@ function App() {
   )
 }
 
+// export this component to the main.js 
 export default App
+
