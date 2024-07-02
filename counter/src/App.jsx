@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 
+// App component is export to the main.js
 function App() {
   
   let [counter , setCounter]=useState(15)
