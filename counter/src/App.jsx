@@ -24,10 +24,10 @@ function App() {
       <h1>code with react</h1>
       <h2>Counter value =  : {counter}</h2>
 
-      {/* addValue function avalable here */}
+      {/* addValue function available here */}
       <button onClick={addValue}>add value</button>   
 
-    
+      {/* removeValue function available here */}
       <button onClick={removeValue}>remove value</button>
     </>
   )
