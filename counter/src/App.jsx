@@ -24,7 +24,10 @@ function App() {
       <h1>code with react</h1>
       <h2>Counter value =  : {counter}</h2>
 
+      {/* addValue function avalable here */}
       <button onClick={addValue}>add value</button>   
+
+    
       <button onClick={removeValue}>remove value</button>
     </>
   )
