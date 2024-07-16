@@ -1,0 +1,41 @@
+.container{
+    width: 1060px;
+    min-height: 70vh;
+    /* border: 2px solid red; */
+    margin: 0 auto;
+    padding: 10px ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.left{
+    width: 650px;
+    height: 450px;
+    /* border: 1px solid black; */
+    padding: 10px;
+}
+.left h1{
+    margin-bottom: 30px;
+}
+.left p{
+    margin-bottom: 20px;
+    line-height:25px;
+}
+.left button{
+    /* border: 1px solid black; */
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    background-color: orange;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+}
+.right{
+    width: 450px;
+    height: 450px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
